@@ -1,0 +1,23 @@
+{
+  "name": "pdfpoc",
+  "version": "0.0.1",
+  "description": "A simple POC of injecting JS into PDF files and various ways malicious actors may use it.",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Hamad Alafeefi",
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}
